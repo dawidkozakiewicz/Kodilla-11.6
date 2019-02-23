@@ -114,7 +114,7 @@ $(function() {
   board.addColumn(doingColumn);
   board.addColumn(doneColumn);
 
-  var card1 = new Card('kodilla');
+  var card1 = new Card('kodowanie');
   var card2 = new Card('kawa');
   var card3 = new Card('prysznic');
 
