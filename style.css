@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-  background-color: #6B5B95;
+  background-color: #6495ED;
 }
 
 h1,
@@ -19,8 +20,8 @@ h1,
 h2,
 p {
   text-transform: uppercase;
-  color: #e6e600;
-  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-family: 'Raleway', sans-serif;
 }
 
 .btn-delete,
@@ -29,17 +30,18 @@ p {
 .add-card,
 .button,
 .create-column {
-  background-color: #955b85;
+  background-color: #6495ed;
   border: none;
-  color: #e6e600;
-  padding: 10px;
+  padding: 7px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 5px;
   cursor: pointer;
+  border: 2px dashedblack;
+  border: 1.5px solid black;
+  border-radius: 4px;
 }
 
 .add-card {
@@ -53,6 +55,10 @@ h1 {
 .create-column {
   display: block;
   margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 30 0 30;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .column-container {
@@ -68,7 +74,6 @@ h1 {
 }
 
 .column-container .column {
-  background-color: #6b5b95;
   min-width: 400px;
   min-height: 400px;
   margin: 15px 0;
@@ -80,30 +85,35 @@ h1 {
 
 .column-container .column .column-title {
   text-align: center;
-  background-color: #955b85;
   min-height: 50px;
-  margin-top: 0;
+  margin-bottom: 10px;
   line-height: 50px;
 }
 
 .column-container .column .column-card-list {
   list-style-type: none;
-  background-color: #955b85;
   padding: 0;
   min-height: 400px;
+  border: 2px solid black;
+  border-radius: 15px;
 }
 
 .column-container .column .column-card-list .card {
-  background-color: #999900;
-  min-height: 100px;
-  width: 85%;
-  margin: 0 auto;
-  border-radius: 2%;
-  margin: 1%;
+      background-color: azure;
+      min-height: 100px;
+      width: 85%;
+      margin: 0 auto;
+      border-radius: 2%;
+      margin: 1%;
+      border: 2px solid black;
+      border-radius: 15px;
+      margin-left: 15px;
+      margin-bottom: 15px;
 }
 
 .column-container .column .column-card-list .card p {
   font-size: 25px;
   color: #39304f;
   text-align: center;
+  cursor: grab;
 }
